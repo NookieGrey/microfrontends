@@ -6,6 +6,7 @@ export default defineConfig({
   preview: {
     cors: true,
   },
+  base: "http://localhost:8001",
   plugins: [
     react(),
     vitePluginSingleSpa({
