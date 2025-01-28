@@ -5,7 +5,7 @@ import {
   constructRoutes,
 } from "single-spa-layout";
 
-const routes = constructRoutes(document.querySelector("#single-spa-layout"));
+const routes = constructRoutes(document.querySelector("#single-spa-layout")!);
 const applications = constructApplications({
   routes,
   loadApp({ name }) {
