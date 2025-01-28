@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Root Spa</title>
+    <template id="single-spa-layout">
+        <single-spa-router>
+            <route default>
+                <application name="@sharebook/my-spa"></application>
+            </route>
+        </single-spa-router>
+    </template>
+</head>
+<body>
+<script src="./src/root-config.ts" type="module"></script>
+</body>
+</html>

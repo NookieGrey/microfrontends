@@ -1,0 +1,19 @@
+{
+  "name": "sharebook",
+  "version": "0.0.2",
+  "workspaces": [
+    "packages/main/*",
+    "packages/apps/*"
+  ],
+  "scripts": {
+    "my-spa": "cd packages/apps/my-spa && npm run start",
+    "root-spa": "cd packages/main/root-spa && npm run start"
+  },
+  "keywords": [],
+  "author": "NookieGrey",
+  "private": true,
+  "description": "",
+  "devDependencies": {
+    "prettier": "3.4.2"
+  }
+}

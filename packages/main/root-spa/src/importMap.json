@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@sharebook/my-spa": "http://localhost:8001/spa.js"
+  }
+}
